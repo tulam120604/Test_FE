@@ -17,3 +17,10 @@ clone repo (https://github.com/tulam120604/Test_FE)
 
 - npm i
 - npm run dev
+- npx json-server db.json
+
+## source
+- _root: gồm folder pages và layout. Trong page có login và dashboard
+- components: có các component confirmDialog, CRUD task, loadingOverLay
+- toàn bộ app.jsx được bọc bởi storeProvider dùng useContext & useReducer để tạo và cập nhật global state, sau đó cung cấp cho các component qua context
+- data dùng json-server

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, Outlet, useNavigate } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 import ConfirmDialog from "../components/confirmDialog";
 import CreateTaskModal from "../components/createTask";
 import { useStore } from "../storeProvider";
